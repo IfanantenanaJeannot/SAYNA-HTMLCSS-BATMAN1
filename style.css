@@ -1,0 +1,114 @@
+body{
+	color:white;
+}
+nav{
+	margin-left:150px;
+	margin-right:150px;
+	padding-top:55px;
+	padding-bottom:60px;
+	height:90px;
+	display:flex;
+	justify-content:space-between;
+}
+nav ul li{
+	list-style:none;
+	float:right;
+	position:relative;
+}
+nav ul li a{
+	color:white;
+	text-decoration:underline;
+	text-transformation:uppercase;
+	font-family:"Francklin Gothic Demi",francklin,monospace;
+	font-size:25px;
+}
+.main{
+	width:100%;
+	margin-top:230px;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+	color:white;
+	padding-bottom:100px;
+}
+.main h1{
+	font-size:36px;
+	margin-top:80px;
+}
+.main p{
+	margin:20px auto;
+	line-height:25px;
+	font-size:18px;
+}
+button{
+	width:200px;
+	height:50px;
+	padding:15px;
+	text-align:center;
+	margin:20px 10px;
+	font-weight:bold;
+	border:none;
+	background:rgb(255, 255, 255,0.3);
+	cursor:pointer;
+	color:white;
+	position:relative;
+	overflow:hidden;
+}
+button a{
+	color:white;
+	text-decoration:none;
+
+}
+.image{
+	padding-top:100px;
+}
+.section{
+	padding-top:500px;
+}
+.description{
+	margin-left:120px;
+	margin-right:120px;
+	padding:65px;
+}
+.description h1{
+	font-size:32px;
+	font-weight:bold;
+}
+.description p{
+	font-weight:normal;
+	font-size:18px;
+	width:95%;
+}
+.article p{
+	width:85%;
+	text-align: justify;
+	margin-top:40px;
+}
+.gallery{
+	padding-top:55px;
+	column-count:3;
+	column-gap:35px;
+}
+.desc{
+	text-align:center;
+	font-size:18px;
+}
+.section2{
+	padding-left:250px;
+	margin-right:180px;
+}
+.section2 h1{
+	font-size:32px;
+	font-weight:bold;
+}
+.section2 p{
+	font-size:18px;
+	text-align:justify;
+}
+.formulaire{
+	background-image: linear-gradient(to bottom right,#696969,#778899);
+	padding:20px 0 50px 0;
+	text-align:center;
+}
+
