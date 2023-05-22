@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=rajdhani:wght@300;400;500;600;700&family=Space+Grotest:wght@300;400;500;600;700&display=swap");
+
 body{
 	color:white;
+}
+h1{
+	font-family:"rajdhani", sans-serif;
 }
 nav{
 	margin-left:150px;
@@ -22,26 +27,30 @@ nav ul li a{
 	font-family:"Francklin Gothic Demi",francklin,monospace;
 	font-size:25px;
 }
-.main{
-	width:100%;
-	margin-top:230px;
+#hero{
+	width:65%;
+	margin-top:200px;
 	position:absolute;
 	top:50%;
 	transform:translateY(-50%);
 	text-align:center;
 	color:white;
 	padding-bottom:100px;
+	margin-left:120px;
+	margin-right:120px;
+	padding:65px;
 }
-.main h1{
+#hero .content h1{
+	font-family:"rajdhani", sans-serif;
 	font-size:36px;
 	margin-top:80px;
 }
-.main p{
+#hero .content p{
 	margin:20px auto;
 	line-height:25px;
 	font-size:18px;
 }
-button{
+#hero button{
 	width:200px;
 	height:50px;
 	padding:15px;
@@ -55,7 +64,7 @@ button{
 	position:relative;
 	overflow:hidden;
 }
-button a{
+#hero button a{
 	color:white;
 	text-decoration:none;
 
@@ -64,51 +73,83 @@ button a{
 	padding-top:100px;
 }
 .section{
-	padding-top:500px;
-}
-.description{
-	margin-left:120px;
+	width:70%;
+	margin-left:100px;
 	margin-right:120px;
 	padding:65px;
 }
-.description h1{
+#batman-au-cinéma{
+	margin-top:500px;
+}
+.section h1{
+	font-family:"rajdhani", sans-serif;
 	font-size:32px;
 	font-weight:bold;
 }
-.description p{
+.section p{
 	font-weight:normal;
 	font-size:18px;
 	width:95%;
+	text-align:justify;
 }
-.article p{
-	width:85%;
-	text-align: justify;
-	margin-top:40px;
+
+
+.scrol{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	position:fixed;
+	right:80px;
+	top:310px;
+}
+.scrol .social{
+	margin-top:20px;
 }
 .gallery{
-	padding-top:55px;
-	column-count:3;
-	column-gap:35px;
+	display:flex;
+	justify-content:space-between;
 }
-.desc{
+.description .desc{
 	text-align:center;
-	font-size:18px;
 }
-.section2{
-	padding-left:250px;
-	margin-right:180px;
+.description .desc p{
+	text-align:center;
 }
-.section2 h1{
+#multimedia .slider-multimedia{
+	display:flex;
+	width:50%;
+	margin:40px auto;
+}
+#multimedia .slider-content{
+	padding:10px;
+	text-align:justify;
+	margin-top:10px;
+	background:#727272;
+}
+#multimedia .slider-content h2{
+	font-size:14px;
+}
+#multimedia .slider-content h3{
+	font-size:12px;
+	font-weight:normal;
+}
+#multimedia .slider-content p{
+	font-size:14px;
+}
+#justiciés .section{
+	width:65%;
+	margin-left:170px;
+	margin-right:120px;
+	padding:65px;
+}
+#justiciés .section h1{
+	font-family:"rajdhani", sans-serif;
 	font-size:32px;
 	font-weight:bold;
 }
-.section2 p{
+#justiciés .section p{
+	font-weight:normal;
 	font-size:18px;
+	width:95%;
 	text-align:justify;
 }
-.formulaire{
-	background-image: linear-gradient(to bottom right,#696969,#778899);
-	padding:20px 0 50px 0;
-	text-align:center;
-}
-
